@@ -1,0 +1,1 @@
+# Swedish School Paystub Generator
