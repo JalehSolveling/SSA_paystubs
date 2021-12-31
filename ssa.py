@@ -9,22 +9,22 @@ from gooey import Gooey, GooeyParser
 def main():
     # Create the parser
     #my_parser = argparse.ArgumentParser(description='Collect parameters from user (Pay Period, input file, outputfile,etc.')
-    my_parser = GooeyParser(description='Collect parameters from user (Pay Period, input file, outputfile,etc.')
+    my_parser = GooeyParser(description='Collect parameters from user (pay period, input file, output folder)')
     # Add the arguments
     my_parser.add_argument('--Period',
                         metavar='Pay Period',
                         type=str,
-                        help='The pay period we are calculating: ex/ Fall 2021')
+                        help='The pay period that will be printed on the paystub: ex/ Fall 2021')
     my_parser.add_argument('--Input_File',
                         metavar='Input File',
                         type=str,
-                        help='the path and name of the input file used to calculate wages',
+                        help='The path and name of the Excel file used to calculate wages',
                         default='Payroll Data.xlsx',
                         widget='FileChooser')  
     my_parser.add_argument('--Output_Directory',
                         metavar='Output Directory',
                         type=str,
-                        help='the path for the output file used to write paystubs',
+                        help='The folder where the paystubs will be written',
                         default='./output/',
                         widget='DirChooser') 
     
@@ -54,6 +54,7 @@ def main():
 
     #the excel and pdf file that holds the results of calculated wages
     pdf_file = excel_file.replace(".xlsx", ".pdf")
+
 
     
 
