@@ -4,7 +4,7 @@
 This script will take a list of exmployees along with their pay rate and hours worked from an Excel file and create a paystub in PDF format for each employee.
 
 ## How it works
-1. Download "Payroll Data Template.xlsx".
+1. Open "sample/Payroll Data Template.xlsx".
 2. Enter the following for each employee on the **Employees** sheet:
     - Employee ID (a unique number for each employee)
     - Status (E for Employee or V for Volunteer)
@@ -55,6 +55,3 @@ Here are examples of the different paystubs generated, one for employees and one
 2. Check that you have saved your changes to the Excel file before running the script.
 3. Check that you are in the correct directory to run the script.
 
-*Thanks for reading!  
-Jaleh Solveling  
-jaleh.solveling@gmail.com*
