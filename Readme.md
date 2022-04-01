@@ -17,7 +17,7 @@ This script will take a list of employees along with their pay rate and hours wo
     - Sessions Other (number of classes for other services that semester)   
      <br>
    *Here is an example*
-   ![Excel Template Sample](/docs/Excel_sample2.png)
+   ![Excel Template Sample](/docs/Excel_sample1.png)
    
    <br>
 3. Modify the tax status for all the employees on the **Deductions** sheet (optional)
