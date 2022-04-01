@@ -1,7 +1,7 @@
 # Swedish School Paystub Generator
 
 ## What it does
-This script will take a list of exmployees along with their pay rate and hours worked from an Excel file and create a paystub in PDF format for each employee.
+This script will take a list of employees along with their pay rate and hours worked from an Excel file and create a paystub in PDF format for each employee.
 
 ## How it works
 1. Open "sample/Payroll Data Template.xlsx".
