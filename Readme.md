@@ -22,7 +22,7 @@ This script will take a list of employees along with their pay rate and hours wo
    <br>
 3. Modify the tax status for all the employees on the **Deductions** sheet (optional)
 
-
+![Excel Template Sample](/docs/Excel_sample1.png)
     *Here is the default*
     ![Excel Template Sample](/docs/Excel_sample2.png)
 
